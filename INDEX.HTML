@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+  <title>Wizard Verdicto</title>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1 class="title">Wizzard Verdicto</h1>
+  <p class="description">Cheesecake or icecream? Go out or stay at home? Call him or play cool? So many decisions to make, so little time.</p>
+  <p class="description">Worry no more, Wizard Verdicto is here to make your life easier. Fill in your question (yes/no type) below and press 'Help me, Verdicto' button. In a split of a second, you get the answer on the screen. 50% success rate guaranteed!</p>
+  <h2 class="logo"><img src="verdictus.png" /></h2>
+
+<form action="" method="post" id="verdicto">
+
+  <div id="answers" class="hide">
+      <p><span id="verdict"></span>
+  </div>
+
+  <div id="bucket" class="bucket">
+        <p class="question">Fill in your YES/NO type question.
+        <input name="question[]" type="text">
+ </div>
+
+  <input type="submit" value="Help me, Verdicto">
+</form>
+<script src="script.js"></script>
+</body>
+</html>
